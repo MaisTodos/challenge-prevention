@@ -50,7 +50,7 @@ Nesse caso não houve nenhum dano financeiro à matriz pois o fechamento de caix
 - Olhar crítico da situação;
 - Compreensão de casos de fraude;
 - Desenvolvimento de queries SQL; 
-- Sugestões de melhoria de processo e de monitoramento.
+- Sugestões de melhoria de processo e de monitoramento;
 - Criatividade: caso tenha alguma solução ou sugestão que não foi abordada no case, sinta-se a vontade para desenvolver.
 
 ## Terei a chance de explicar minhas decisões?
