@@ -16,7 +16,7 @@ Para realizar a análise temos como base uma tabela em SQL contendo os lançamen
 
 # Objetivo
 Nesse caso não houve nenhum dano financeiro à matriz pois o fechamento de caixa ficou igual o valor transacionado, no entanto a campanha foi prejudicada. O intuito desta investigação post-mortem é:
-- Analisar o volume de emissão desses cashbacks: Desenvolver um código SQL que traria os possíveis casos de vendas falsificadas, isto é, $valor\_total/n\_vendas$ menor que R$90.00;
+- Analisar o volume de emissão desses cashbacks: Desenvolver um código SQL que traria os possíveis casos de vendas falsificadas, isto é, $valor\\_total/n\\_vendas$ menor que R$90.00;
 - Entender o objetivo dessas emissões: nosso time imagina que seja para fraudar a campanha, consegue imaginar algum outro objetivo, para essas falsificações de vendas?
 - Sugerir mudanças do processo, tanto para impedir essas fraudes quanto para fazer uma nova campanha de marketing nesse mesmo sentido;
 - Sugerir monitoramentos possíveis para evitar esses casos no futuro.
