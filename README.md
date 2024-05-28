@@ -13,7 +13,7 @@ Existe também uma tabela contendo o histórico de fechamentos de caixa de todas
 - **fechamento_id**: chave primária com o id do fechamento (auto_increment); 
 - **valor_diario**: o valor total diário de vendas do *PC*;  
 - **nome_pc**: nome-único do *PC*;
-- **data_vendas**: data e hora do fechamento de caixa no formato (YYYY-MM-DD HH:mm:ss);
+- **data_fechamento**: data e hora do fechamento de caixa no formato (YYYY-MM-DD HH:mm:ss);
 
 # Exemplo das tabelas
 
@@ -29,7 +29,7 @@ Existe também uma tabela contendo o histórico de fechamentos de caixa de todas
 |---------------|-----------|--------------|---------------------|
 | 101           | $PC_1$    | 100          | 2022-03-01 23:59:02 |
 | 102           | $PC_2$    | 100          | 2022-03-01 23:59:05 |
-| ...           | ......    | ...          | ................... |
+| ...           | ...    | ...          | ... |
 | 466           | $PC_1$    | 100          | 2023-03-01 23:59:00 |
 | 467           | $PC_2$    | 200          | 2023-03-01 23:59:01 |
 | 468           | $PC_3$    | 400          | 2023-03-01 23:59:10 |
