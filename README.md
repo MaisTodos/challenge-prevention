@@ -3,7 +3,7 @@ Um grupo empresarial de vendas de eletrodomésticos com extensão nacional possu
 
 No fechamento da campanha foi observado que vários desses *PCs* fizeram vendas de eletrodomésticos com valores muito abaixo dos definidos pela matriz. O preço mínimo de um eletrodoméstico no catálogo seria de R$100,00 e mesmo assim tiveram vendas de R$10,00 e até R$5,00.
 
-Para realizar a análise temos como base uma tabela em SQL contendo os lançamentos de vendas de todas os *PCs* chamada **fechamento_campanha** esta tabela possui as colunas de:
+Para realizar a análise temos como base uma tabela em SQL contendo os lançamentos de vendas de todas os *PCs* chamada **fechamento_campanha**. Esta tabela possui as colunas de:
 
 - **nome**: chave primária o nome-único do *PC*; 
 - **valor_total**: o valor total de vendas do *PC* em reais;  
