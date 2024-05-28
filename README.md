@@ -26,6 +26,7 @@ Existe também uma tabela contendo o histórico de fechamentos de caixa de todas
 ## Tabela histórica de fechamentos de caixa diários (historico_diario)
 | fechamento_id | nome_pc   | valor_diario | data_fechamento     |
 |---------------|-----------|--------------|---------------------|
+| ...           | ...    | ...          | ... |
 | 101           | $PC_1$    | 100          | 2022-03-01 23:59:02 |
 | 102           | $PC_2$    | 100          | 2022-03-01 23:59:05 |
 | ...           | ...    | ...          | ... |
@@ -38,7 +39,7 @@ Existe também uma tabela contendo o histórico de fechamentos de caixa de todas
 
 # Objetivo
 Nesse caso não houve nenhum dano financeiro à matriz pois o fechamento de caixa ficou igual o valor transacionado, no entanto a campanha foi prejudicada. O intuito desta investigação post-mortem é:
-- Analisar o volume de emissão desses cashbacks: Desenvolver um código SQL que traria os possíveis casos de vendas falsificadas;
+- Analisar o volume de emissão dessas vendas: Desenvolver um código SQL que traria os possíveis casos de vendas falsificadas;
 - Comparar as vendas desse ano com as do ano passado: Desenvolver código SQL que faria essa comparação;
 - Entender o objetivo dessas emissões;
 - Sugerir mudanças do processo, tanto para impedir fraudes quanto para fazer novas campanhas de marketing;
