@@ -1,17 +1,17 @@
 # Descrição do caso
 Um grupo empresarial de vendas de eletrodomésticos com extensão nacional possuí milhares de *Parceiros Comerciais* filiados que compram os produtos da sede e realizam a venda destes. Durante uma campanha de marketing de fim de ano, a sede definiu metas de vendas com premiações para todos os *Parceiros Comerciais*(PCs) com base no volume de vendas durante o **mês de março de 2023**.
 
-No fechamento da campanha foi observado que vários desses *PCs* fizeram vendas de eletrodomésticos com valores muito abaixo dos definidos pela matriz. O preço mínimo de um eletrodoméstico no catálogo seria de R$100.00 e mesmo assim tiveram vendas de R$10.00 e até R$5.00.
+No fechamento da campanha foi observado que vários desses *PCs* fizeram vendas de eletrodomésticos com valores muito abaixo dos definidos pela matriz. O preço mínimo de um eletrodoméstico no catálogo seria de R$100,00 e mesmo assim tiveram vendas de R$10,00 e até R$5,00.
 
 Para realizar a análise temos como base uma tabela em SQL contendo os lançamentos de vendas de todas os *PCs* chamada **fechamento_campanha** esta tabela possui as colunas de:
 
 - **nome**: chave primária o nome-único do *PC*; 
-- **valor_total**: o valor total de vendas do *PC*;  
+- **valor_total**: o valor total de vendas do *PC* em reais;  
 - **n_vendas**: número total de vendas do *PC*;
 
 Existe também uma tabela contendo o histórico de fechamentos de caixa de todas as PCs, com o valor total vendido no dia em cada PC. As colunas dessa tabela são:
 - **fechamento_id**: chave primária com o id do fechamento (auto_increment); 
-- **valor_diario**: o valor total diário de vendas do *PC*;  
+- **valor_diario**: o valor total diário de vendas do *PC* em reais;  
 - **nome_pc**: nome-único do *PC*;
 - **data_fechamento**: data e hora do fechamento de caixa no formato (YYYY-MM-DD HH:mm:ss);
 
