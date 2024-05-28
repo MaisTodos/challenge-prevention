@@ -6,7 +6,6 @@ No fechamento da campanha foi observado que vários desses *PCs* fizeram vendas 
 Para realizar a análise temos como base uma tabela em SQL contendo os lançamentos de vendas de todas os *PCs* chamada **fechamento_campanha**. Esta tabela possui as colunas de:
 
 - **id_nome**: nome-único do *PC*; 
-- **valor_total**: o valor total de vendas do *PC* em reais;  
 - **n_vendas**: número total de vendas do *PC*;
 
 Existe também uma tabela contendo o histórico de fechamentos de caixa de todas as PCs, com o valor total vendido no dia em cada PC. As colunas dessa tabela são:
