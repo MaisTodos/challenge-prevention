@@ -52,7 +52,7 @@ Nesse caso não houve nenhum dano financeiro à matriz pois o fechamento de caix
 - Sugestões de melhoria de processo e de monitoramento;
 - Criatividade: caso tenha alguma solução ou sugestão que não foi abordada no case, sinta-se a vontade para desenvolver.
 
-## O código precisa rodar no arquivo de banco de dados disponibilizado
+## O código precisa rodar no arquivo de banco de dados disponibilizado?
 Não, o arquivo disponibilizado é para que você teste o que fez. Não vamos rodar seus códigos, a explicação do seu processo para construção da solução é o que estamos interessados. 
 
 ## Terei a chance de explicar minhas decisões?
