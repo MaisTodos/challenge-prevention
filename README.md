@@ -1,5 +1,5 @@
 # Descrição do caso
-Um grupo empresarial de vendas de eletrodomésticos com extensão nacional possui milhares de *Parceiros Comerciais* filiados que compram os produtos da sede e realizam a venda destes. Durante uma campanha de marketing de fim de ano, a sede definiu metas de vendas com premiações para todos os *Parceiros Comerciais*(PCs) com base no volume de vendas durante o **mês de março de 2023**.
+Um grupo empresarial de vendas de eletrodomésticos com extensão nacional possui milhares de *Parceiros Comerciais* filiados que compram os produtos da sede e realizam a venda destes. Durante uma campanha de marketing de fim de ano, a sede definiu metas de vendas com premiações para todos os *Parceiros Comerciais*(PCs) com base no volume de vendas durante o **mês de março de 2024**.
 
 No fechamento da campanha foi observado que vários desses *PCs* fizeram vendas de eletrodomésticos com valores muito abaixo dos definidos pela matriz. O preço mínimo de um eletrodoméstico no catálogo seria de R$100,00 e mesmo assim tiveram vendas de R$10,00 e até R$5,00.
 
@@ -15,7 +15,7 @@ Existe também uma tabela contendo o histórico de fechamentos de caixa de todas
 - **data_fechamento**: data e hora do fechamento de caixa no formato (YYYY-MM-DD HH:mm:ss);
 
 # Exemplo das tabelas
-## Tabela de resultado da campanha de Março/2023 (fechamento_campanha)
+## Tabela de resultado da campanha de Março/2024 (fechamento_campanha)
 |  id_nome  | n_vendas |
 |--------|----------|
 | $PC_1$ | 5000     |
@@ -29,17 +29,17 @@ Existe também uma tabela contendo o histórico de fechamentos de caixa de todas
 | 101           | $PC_1$    | 100          | 2022-03-01 23:59:02 |
 | 102           | $PC_2$    | 100          | 2022-03-01 23:59:05 |
 | ...           | ...    | ...          | ... |
-| 466           | $PC_1$    | 100          | 2023-03-01 23:59:00 |
-| 467           | $PC_2$    | 200          | 2023-03-01 23:59:01 |
-| 468           | $PC_3$    | 400          | 2023-03-01 23:59:10 |
-| 469           | $PC_1$    | 300          | 2023-03-02 23:59:10 |
-| 470           | $PC_2$    | 299          | 2023-03-02 23:59:19 |
-| 471           | $PC_3$    | 599          | 2023-03-02 23:59:18 |
+| 466           | $PC_1$    | 100          | 2024-03-01 23:59:00 |
+| 467           | $PC_2$    | 200          | 2024-03-01 23:59:01 |
+| 468           | $PC_3$    | 400          | 2024-03-01 23:59:10 |
+| 469           | $PC_1$    | 300          | 2024-03-02 23:59:10 |
+| 470           | $PC_2$    | 299          | 2024-03-02 23:59:19 |
+| 471           | $PC_3$    | 599          | 2024-03-02 23:59:18 |
 
 # Objetivo
 Nesse caso não houve nenhum dano financeiro à matriz pois o fechamento de caixa ficou igual o valor transacionado, no entanto a campanha foi prejudicada. O intuito desta investigação post-mortem é:
 - Analisar o volume de vendas: Desenvolver um código SQL que traria os possíveis casos de vendas falsificadas;
-- Comparar as vendas desse ano com as do ano passado: Desenvolver código SQL que faria essa comparação;
+- Comparar as vendas desse ano (2024) com as do ano passado (2023): Desenvolver código SQL que faria essa comparação;
 - Entender o objetivo dessas vendas;
 - Sugerir mudanças do processo, tanto para impedir fraudes quanto para fazer novas campanhas de marketing;
 - Sugerir monitoramentos possíveis para evitar estes casos no futuro.
