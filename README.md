@@ -3,7 +3,7 @@ Um grupo empresarial de vendas de eletrodomésticos com extensão nacional possu
 
 No fechamento da campanha foi observado que vários desses *PCs* fizeram vendas de eletrodomésticos com valores muito abaixo dos definidos pela matriz. O preço mínimo de um eletrodoméstico no catálogo seria de R$100,00 e mesmo assim tiveram vendas de R$10,00 e até R$5,00.
 
-Para realizar a análise temos como base uma tabela em SQL contendo os lançamentos de vendas de todas os *PCs* chamada **fechamento_campanha**. Esta tabela possui somente as colunas de:
+Para realizar a análise temos como base uma base de dados SQLite (historico_diario.db) que possui duas tabelas. Uma tabela em SQL contendo os lançamentos de vendas de todas os *PCs* chamada **fechamento_campanha**. Esta tabela possui somente as colunas de:
 
 - **id_nome**: nome-único do *PC*; 
 - **n_vendas**: número total de vendas do *PC*;
@@ -15,13 +15,12 @@ Existe também uma tabela contendo o histórico de fechamentos de caixa de todas
 - **data_fechamento**: data e hora do fechamento de caixa no formato (YYYY-MM-DD HH:mm:ss);
 
 # Exemplo das tabelas
-
 ## Tabela de resultado da campanha de Março/2023 (fechamento_campanha)
 |  id_nome  | n_vendas |
 |--------|----------|
-| $PC_1$ | 800      |
-| $PC_2$ | 100      |
-| $PC_3$ | 10000    |
+| $PC_1$ | 5000     |
+| $PC_2$ | 10000    |
+| $PC_3$ | 40000    |
 
 ## Tabela histórica de fechamentos de caixa diários (historico_diario)
 | fechamento_id | nome_pc   | valor_diario | data_fechamento     |
@@ -52,6 +51,9 @@ Nesse caso não houve nenhum dano financeiro à matriz pois o fechamento de caix
 - Desenvolvimento de queries SQL; 
 - Sugestões de melhoria de processo e de monitoramento;
 - Criatividade: caso tenha alguma solução ou sugestão que não foi abordada no case, sinta-se a vontade para desenvolver.
+
+## O código precisa rodar no arquivo de banco de dados disponibilizado
+Não, o arquivo disponibilizado é para que você teste o que fez. Não vamos rodar seus códigos, a explicação do seu processo para construção da solução é o que estamos interessados. 
 
 ## Terei a chance de explicar minhas decisões?
 Sinta-se à vontade para comentar seu processo. Discutiremos as escolhas que você fez na entrevista.
